@@ -1,7 +1,9 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const User = ({ user }) => {
     const { id, name, email, phone } = user;
+
+
     const userStyle = {
         border: '2px solid orange',
         padding: '5px',
